@@ -1,0 +1,6 @@
+--Создаем табличку пользователей
+create table users(login varchar(128), pass varchar(128));
+--Вносим в нее данные 
+inset into users (login, pass) values('seet', 'seet1234');
+--Создаем табличку записей
+create table records(date varchar(128), week varchar(128), short_description varchar(128), more_description text);
